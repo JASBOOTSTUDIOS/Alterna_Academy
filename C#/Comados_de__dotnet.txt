@@ -1,0 +1,6 @@
+// dotnet new webapi -n Nombre_de_la_app  // con esto se crea un nuevo proyecto api web. 
+// dotnet new console -n Nombre_de_la_app // con esto se crea un nuevo proyecto de consola.
+// dotnet add package Microsoft.Data.SqlClient  // con esto se instalan los paketes de integracion y dependencias.
+
+// "Server=.;Database=CustomerAPI;Trusted_Connection=True;TrustServerCertificate=True"; // SqlConnection String conexion a la base de datos.
+
