@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Mvc.Filters;
-public class CustonFilter : IActionFilter
+
+namespace tarea_1.Utils.CustomFilter
+{
+
+public class CustomFilter : IActionFilter
 {
 
     public void OnActionExecuting(ActionExecutingContext context)
@@ -16,4 +20,5 @@ public class CustonFilter : IActionFilter
     // {
     //     throw new NotImplementedException();
     // }
+}
 }
