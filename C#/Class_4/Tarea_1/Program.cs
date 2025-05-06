@@ -16,7 +16,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-// app.UseMiddleware<MiRealMiddelware>();
+app.UseMiddleware<MiRealMiddelware>();
 
 var summaries = new[]
 {
