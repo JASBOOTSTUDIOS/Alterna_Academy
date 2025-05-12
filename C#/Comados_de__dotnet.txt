@@ -4,3 +4,5 @@
 
 // "Server=.;Database=CustomerAPI;Trusted_Connection=True;TrustServerCertificate=True"; // SqlConnection String conexion a la base de datos.
 
+// dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+// dotnet add package Swashbuckle.AspNetCore
